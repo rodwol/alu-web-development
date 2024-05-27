@@ -1,0 +1,199 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    color: #4CAF50;
+}
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.products, .videos, .membership, .faq {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product, .video, .membership-item, .item-block {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.product img, .video img, .membership-item img, .item-block img, .author img, .rating img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product h3, .video h3, .membership-item h3, .item-block h3 {
+    color: #4CAF50;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.product p, .video p, .membership-item p, .item-block p {
+    font-size: 14px;
+    color: #555;
+}
+.quote-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.quote-section img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.quote-content {
+    max-width: 600px;
+}
+.quote-content blockquote {
+    font-size: 18px;
+    color: #4CAF50;
+    margin: 0 0 10px 0;
+    quotes: "“" "”" "‘" "’";
+}
+.quote-content blockquote:before {
+    content: open-quote;
+}
+.quote-content blockquote:after {
+    content: close-quote;
+}
+.quote-content .author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.video-section h2, .membership-section h2, .faq-section h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+.video {
+    text-align: left;
+}
+.author, .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.author img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.author h4 {
+    margin: 0;
+    font-size: 14px;
+}
+.rating {
+    margin-top: 5px;
+}
+.rating img {
+    height: 20px;
+    width: 20px;
+}
+.membership-item button, .item-block button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.faq-row {
+    display: flex;
+    width: 100%;
+}
+.faq-row .item-block {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+}
+.footer-row img {
+    height: 50px;
+    margin-right: 20px;
+}
+.footer-links {
+    display: flex;
+    gap: 10px;
+}
+.footer-links a {
+    display: block;
+}
+.footer-links img {
+    height: 30px;
+    width: 30px;
+}
+.footer-text {
+    margin-left: 20px;
+    font-size: 14px;
+}
+</style>
